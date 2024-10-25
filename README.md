@@ -29,7 +29,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Krishnapal-rajput/react.counter.v2.git
+   git clone https://github.com/Krishnapal-rajput/react.counter.v2.git 
    cd react-counter-app
 2. Install dependencies: 
     ```bash
