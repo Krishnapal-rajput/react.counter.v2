@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: cursive;
+  font-weight: 800;
+  display: flex;
+}
+
+.counter {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+button {
+  font-family: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 72px;
+  height: 32px;
+  margin-right: 24px;
+  scale: 1;
+}
+
+button:hover {
+  scale: 1.05;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
