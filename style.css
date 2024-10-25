@@ -1,0 +1,40 @@
+/* Apply box-sizing to all elements to include padding and border in element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Set height to full viewport height */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-family: cursive; /* Set font family */
+    font-weight: 800; /* Set font weight to bold */
+}
+
+/* Style for the counter display */
+.counter {
+    text-align: center; /* Center the text */
+    font-size: 24px; /* Set font size */
+    margin-bottom: 24px; /* Add space below the counter */
+}
+
+/* Style for buttons */
+button {
+    margin-right: 24px; /* Space between buttons */
+    background-color: white; /* Set background color */
+    border-radius: 8px; /* Round the corners */
+    font-family: inherit; /* Inherit font family from parent */
+    font-weight: inherit; /* Inherit font weight from parent */
+    width: 72px; /* Set fixed width */
+    height: 32px; /* Set fixed height */
+    scale: 1; /* Initial scale for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    scale: 1.05; /* Slightly increase size on hover */
+}
